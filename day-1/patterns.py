@@ -1,7 +1,7 @@
 # email
 import re
 a = """Hello from riddhi34556@gmail.com
-    to disha@yahoo.com about the meeting @2pm"""
+to disha@yahoo.com about the meeting @2pm"""
 lst = re.findall(r'\S+@\S+', a)
 print(lst)
 
