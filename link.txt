@@ -1,0 +1,4 @@
+Day 1: Regular Expressions (Regex)
+• re.match, re.search, re.findall, re.sub(https://www.w3schools.com/python/python_regex.asp)(https://www.youtube.com/watch?v=malymrdZ350)
+• Patterns for emails, phone numbers, file names(https://www.youtube.com/watch?v=malymrdZ350)
+
