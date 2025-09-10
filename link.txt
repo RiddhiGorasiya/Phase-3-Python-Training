@@ -2,3 +2,7 @@ Day 1: Regular Expressions (Regex)
 • re.match, re.search, re.findall, re.sub(https://www.w3schools.com/python/python_regex.asp)(https://www.youtube.com/watch?v=malymrdZ350)
 • Patterns for emails, phone numbers, file names(https://www.youtube.com/watch?v=malymrdZ350)
 
+Day 2: Pickling and Serialization
+• pickle.dump, pickle.load(https://www.geeksforgeeks.org/python/pickle-python-object-serialization/)(https://www.youtube.com/watch?v=0rd0_Vmm_nA)
+• Storing and retrieving Python objects
+• Use case: save program state4
