@@ -1,0 +1,3 @@
+The pickle module is used for implementing binary protocols for serializing and de-serializing a Python object structure. 
+Pickling: It is a process where a Python object hierarchy is converted into a byte stream. 
+Unpickling: It is the inverse of the Pickling process where a byte stream is converted into an object hierarchy. 
