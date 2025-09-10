@@ -1,0 +1,32 @@
+[
+    {
+        "tradeid": 1,
+        "symbol": "AAPL",
+        "price": 150.0,
+        "volume": 1234
+    },
+    {
+        "tradeid": 2,
+        "symbol": "GOOGL",
+        "price": 2800.5,
+        "volume": 567
+    },
+    {
+        "tradeid": 3,
+        "symbol": "MSFT",
+        "price": 300.75,
+        "volume": 890
+    },
+    {
+        "tradeid": 4,
+        "symbol": "AMZN",
+        "price": 3400.0,
+        "volume": 345
+    },
+    {
+        "tradeid": 5,
+        "symbol": "TSLA",
+        "price": 700.25,
+        "volume": 678
+    }
+]
