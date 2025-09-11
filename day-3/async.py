@@ -53,32 +53,57 @@
 
 # asyncio.run(fn())
 
-# I/O-bound tasks using asyncio.sleep()
+# # I/O-bound tasks using asyncio.sleep()
 
-import asyncio 
+# import asyncio 
 
-async def func1():
-    print("Function 1 started..")
-    await asyncio.sleep(2)
-    print("Function 1 ended")
+# async def func1():
+#     print("Function 1 started..")
+#     await asyncio.sleep(2)
+#     print("Function 1 ended")
 
-async def func2():
-    print("Function 2 started..")
-    await asyncio.sleep(3)
-    print("Function 2 ended")
+# async def func2():
+#     print("Function 2 started..")
+#     await asyncio.sleep(3)
+#     print("Function 2 ended")
 
-async def func3():
-    print("Funtion 3 started..")
-    await asyncio.sleep(1)
-    print("Funtion 3 ended")
+# async def func3():
+#     print("Function 3 started..")
+#     await asyncio.sleep(1)
+#     print("Function 3 ended")
+
+# async def main():
+#     L = await asyncio.gather(
+#         func1(),
+#         func2(),
+#         func3(),
+#     )
+#     print("main ended")
+    
+# asyncio.run(main())
+
+# # Coroutines
+
+# import asyncio
+
+# async def main():
+#     return 32
+
+# async def main():
+#     nested()    # will raise a RunTimeWarning
+#     print(await nested())   # will print 32
+
+# asyncio.run(main())   # this code giv me a error
+
+# tasks
+
+import asyncio
+
+async def nested():
+    return 76
 
 async def main():
-    L = await asyncio.gather(
-        func1(),
-        func2(),
-        func3(),
-    )
-    print("main ended")
-    
+    task = asyncio.create_task(nested())
+    await task
 
 asyncio.run(main())
