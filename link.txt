@@ -6,3 +6,13 @@ Day 2: Pickling and Serialization
 • pickle.dump, pickle.load(https://www.geeksforgeeks.org/python/pickle-python-object-serialization/)(https://www.youtube.com/watch?v=0rd0_Vmm_nA)
 • Storing and retrieving Python objects
 • Use case: save program state4
+
+Day 3: Introduction to AsyncIO(https://www.geeksforgeeks.org/python/asyncio-in-python/)(https://www.youtube.com/watch?v=lgoB3_-ejnI)
+• Sync vs async(https://www.geeksforgeeks.org/javascript/synchronous-and-asynchronous-programming/)
+• Coroutines, async def, await(https://docs.python.org/3/library/asyncio-task.html)
+• Running tasks concurrently(https://docs.python.org/3/library/asyncio-task.html)
+
+Day 4: Threading & Multiprocessing
+• threading.Thread, join(), start()
+• Thread-safe operations
+• Comparison with multiprocessing
