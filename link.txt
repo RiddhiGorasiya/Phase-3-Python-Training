@@ -13,6 +13,6 @@ Day 3: Introduction to AsyncIO(https://www.geeksforgeeks.org/python/asyncio-in-p
 • Running tasks concurrently(https://docs.python.org/3/library/asyncio-task.html)
 
 Day 4: Threading & Multiprocessing
-• threading.Thread, join(), start()
-• Thread-safe operations
-• Comparison with multiprocessing
+• threading.Thread, join(), start()(https://www.geeksforgeeks.org/python/multithreading-python-set-1/)
+• Thread-safe operations(https://realpython.com/python-thread-lock/)
+• Comparison with multiprocessing(https://www.geeksforgeeks.org/python/difference-between-multithreading-vs-multiprocessing-in-python/)
